@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Neptun MakeUp
 // @namespace    https://github.com/0pau/nmu/
-// @version      0.2a
+// @version      0.2a-1
 // @description  Egy kis smink nem árthat a Neptunnak se...
 // @author       0pau
 // @include      https://*neptun*/hallgato*/*
