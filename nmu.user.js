@@ -10,6 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
+//külön van már a css
 applyCSS();
 
 var menubar = document.querySelector(".menubar.root-level");
