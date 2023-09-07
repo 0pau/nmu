@@ -575,7 +575,7 @@ ul.menu, .contextdiv {
     box-shadow: 0px 0px 10px #00000030;
 }
 
-ul.menu li.menu-item, .contextdiv > table > tbody > tr > td  {
+ul.menu li.menu-item, .contextdiv > table > tbody > tr > td, .nmu-menu-item  {
     font-size: 12px;
     background: none;
     border: none;
@@ -583,7 +583,7 @@ ul.menu li.menu-item, .contextdiv > table > tbody > tr > td  {
     color: #222222!important;
 }
 
-ul.menu li.menu-item:hover, .contextdiv > table > tbody > tr > td:hover {
+ul.menu li.menu-item:hover, .contextdiv > table > tbody > tr > td:hover, .nmu-menu-item:hover {
     color: #222222!important;
     background: #F0F0F0;
     border-radius: 5px;
@@ -812,4 +812,72 @@ div.messageBox div.messageBoxContent {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+.nmu-menu-parent {
+    position: relative;
+}
+
+.nmu-menu-parent .nmu-menu {
+    position: absolute;
+    display: none;
+    top: 1.50em;
+    left: 0px;
+    background: white!important;
+    border: 1px #E6E6E6 solid;
+    border-radius: 10px;
+    padding: 5px!important;
+    overflow: visible;
+    box-shadow: 0px 0px 10px #00000030;
+    min-width: 225px;
+}
+
+.nmu-menu-parent:hover .nmu-menu {
+    display: block!important;
+}
+
+div.menu-item {
+    display: block!important;
+}
+
+.nmu-menu-item.switch {
+    display: flex;
+    align-items: center;
+}
+
+.nmu-menu-item.switch input {
+    margin-left: auto;
+    border-radius: 20px;
+    width: 32px;
+    height: 16px;
+    appearance: none;
+    background-color: #c0c0c0;
+    display: flex;
+    padding: 2px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.nmu-menu-item.switch input:checked {
+    background-color: #0077FF;
+}
+
+.nmu-menu-item.switch input:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.nmu-menu-item.switch input:checked:before {
+    margin-left: auto;
+}
+
+.nmu-menu p.info {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 5px 10px;
 }

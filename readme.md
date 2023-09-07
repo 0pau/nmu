@@ -37,3 +37,7 @@ A Neptun MakeUp létrejöttét inspirálta: [Neptun PowerUp!](https://github.com
 *Menü:*
 
 !["Menü"](screenshots/menu.png) 
+
+*MakeUp menü (hamarosan):*
+
+!["MakeUp menü"](screenshots/make-up-menu.png)
