@@ -33,6 +33,6 @@ A **Neptun MakeUp** a minden egyetemista által imádott felületet modernné, f
   !["Lapfülek"](screenshots/tabcontrol.png)
 
 - Menü:
-  <img src="screenshots/menu.png" title="" alt=""Menü"" width="377"> 
+   
 
 
