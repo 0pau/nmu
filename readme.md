@@ -26,13 +26,14 @@ A **Neptun MakeUp** a minden egyetemista által imádott felületet modernné, f
 
 ### Egy kis ízelítő képekkel
 
-- *A teljes felület az 'Üzenetek' oldallal:*
-  !["Teljes felület"](screenshots/teljes-ui.png)
+*A teljes felület az 'Üzenetek' oldallal:*
 
-- *Letisztult lapfülek:*
-  !["Lapfülek"](screenshots/tabcontrol.png)
+!["Teljes felület"](screenshots/teljes-ui.png)*Letisztult lapfülek:*
 
-- Menü:
-  !["Menü"](screenshots/menu.png) 
+!["Lapfülek"](screenshots/tabcontrol.png)
+
+*Menü:*
+
+!["Menü"](screenshots/menu.png) 
 
 
