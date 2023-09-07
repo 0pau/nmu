@@ -10,7 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-//applyCSS();
+applyCSS();
 
 var menubar = document.querySelector(".menubar.root-level");
 var appearanceMenu = document.createElement("li");
